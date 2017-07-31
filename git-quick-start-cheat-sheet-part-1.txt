@@ -1,0 +1,53 @@
+Git Quick Start Cheat Sheet - Part 1: Create git repo from existing local source
+
+Steps to create local repo and sync with BitBucket.com or GitHub.com
+
+1. Create a git repository from an existing project on your local system 
+
+	- Run git from the command line in your local project directory:
+
+		git init
+
+	- Create a file named .gitignore (including the leading dot) and add files that you want to exclude from the repo, e.g.:
+
+		node_modules
+		*~
+		.DS_Store
+		*.bak
+
+	- Stage files
+
+		git add -A
+
+	- Commit locally
+
+		git commit -m "Initial commit."
+
+
+
+2. Create remote repo and sync to local system
+
+	e.g.
+
+		https://github.com/dan-king/git-quick-start-cheat-sheet-part-1.git
+
+		https://bitbucket.org/dan_king/git-quick-start-cheat-sheet-part-1.git
+
+	- Link your local project to the remote repository
+
+		git remote add origin {{remote-url}}
+
+		e.g. git remote add origin https://github.com/dan-king/git-quick-start-cheat-sheet-part-1.git
+
+
+	- Push changes to remote
+
+		git push -u origin master  (-u only has to be done once)
+
+See Also
+
+	https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+	https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn?hl=en
+
+
