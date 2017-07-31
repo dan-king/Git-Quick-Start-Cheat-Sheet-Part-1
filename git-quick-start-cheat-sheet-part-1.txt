@@ -2,7 +2,7 @@ Git Quick Start Cheat Sheet - Part 1: Create git repo from existing local source
 
 Steps to create local repo and sync with BitBucket.com or GitHub.com
 
-1. Create a git repository from an existing project on your local system 
+Step 1. Create a git repository from an existing project on your local system.
 
 	- Run git from the command line in your local project directory:
 
@@ -25,7 +25,7 @@ Steps to create local repo and sync with BitBucket.com or GitHub.com
 
 
 
-2. Create remote repo and sync to local system
+Step 2. Create remote repo and sync to local system.
 
 	e.g.
 
@@ -40,13 +40,15 @@ Steps to create local repo and sync with BitBucket.com or GitHub.com
 		e.g. git remote add origin https://github.com/dan-king/git-quick-start-cheat-sheet-part-1.git
 
 
-	- Push changes to remote
+	- Push changes to remote:
 
 		git push -u origin master  (-u only has to be done once)
 
 See Also
 
 	https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+	https://guides.github.com/activities/hello-world/
 
 	https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn?hl=en
 
